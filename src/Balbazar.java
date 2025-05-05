@@ -6,7 +6,7 @@ public class Balbazar extends Pokemon {
 
     @Override
     public void ozelhareket(Pokemon dusman) {
-        System.out.println(isim + " özel hareket: Alev püskürt!");
+        System.out.println(isim + " özel hareket: Jilet diken saldırısı");
         dusman.hasaralma(30);
     }
 }
