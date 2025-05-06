@@ -2,15 +2,20 @@ public abstract class Pokemon {
     protected String isim;
     protected int can;
     protected int saldirigucu;
+    protected String elementt;
 
-    public Pokemon(String isim, int can, int saldirigucu) {
+    public Pokemon(String isim, int can, int saldirigucu, String elementt) {
         this.isim = isim;
         this.can = can;
         this.saldirigucu = saldirigucu;
+        this.elementt = elementt;
     }
 
     public String isimAl() {
         return isim;
+    }
+    public String elementGoster() {
+        return elementt;
     }
 
     public int getHealth() {
